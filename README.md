@@ -15,7 +15,14 @@ So, when you arrive at the 'Settings' tab, search for the 'Allowed Callback ' UR
 
 That's it! From the Auth0 perspective, you are good to go and can start securing your React application.
 
+If you take your app for a spin now (npm start), you will be able to authenticate yourself with the help of Auth0, and you will be able to see your React app show your name (that is, if your identity provider does provide a name).
+
 Note: As you want the best security available, you are going to rely on the [Auth0 login page](https://auth0.com/docs/hosted-pages/login). This method consists of redirecting users to a login page hosted by Auth0 that is easily customizable right from [your Auth0 dashboard](https://auth0.auth0.com/login?state=jOgJlYBoPnUUXdPS6jl-ojATBoTSOtIf&client=zEYfpoFzUMEzilhkHilcWoNkrFfJ3hAI&protocol=oauth2&response_type=code&redirect_uri=https%3A%2F%2Fmanage.auth0.com%2Fcallback&scope=openid%20profile%20name%20email%20nickname%20created_at). If you want to learn why this is the best approach, check [the Universal vs. Embedded Login article](https://auth0.com/docs/guides/login/universal-vs-embedded) .
 
+Note: the following three lines MUST be updated in 'src/Auth/Auth.js':
+
+          domain: '<AUTH0_DOMAIN>',
+          audience: 'https://<AUTH0_DOMAIN>/userinfo',
+          clientID: '<AUTH0_CLIENT_ID>'
 
 Source: [Securing React Apps with Auth0](https://auth0.com/blog/how-to-configure-create-react-app)
