@@ -2,9 +2,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 Setting Up an Auth0 Application
-To represent your React application in your Auth0 account, you will need to create an [Auth0 Application](https://auth0.com/docs/applications). So, head to [the Applications section on your Auth0 dashboard](https://auth0.auth0.com/login?state=-nwyWvLAnj8QK8UTIynEAEeJh1BXxExb&client=zEYfpoFzUMEzilhkHilcWoNkrFfJ3hAI&protocol=oauth2&response_type=code&redirect_uri=https%3A%2F%2Fmanage.auth0.com%2Fcallback&scope=openid%20profile%20name%20email%20nickname%20created_at#/applications) and proceed as follows:
+To represent your React application in your Auth0 account, you will need to create an [Auth0 Application](https://auth0.com/docs/applications). So, head to [the Applications section on your Auth0 dashboard] (https://auth0.auth0.com/login?state=-nwyWvLAnj8QK8UTIynEAEeJh1BXxExb&client=zEYfpoFzUMEzilhkHilcWoNkrFfJ3hAI&protocol=oauth2&response_type=code&redirect_uri=https%3A%2F%2Fmanage.auth0.com%2Fcallback&scope=openid%20profile%20name%20email%20nickname%20created_at#/applications) and proceed as follows:
 
-    1. click on the [Create Application button](https://auth0.auth0.com/login?state=B0-s0_9mhfJfugwEu5SJ9AtUGnyREA4n&client=zEYfpoFzUMEzilhkHilcWoNkrFfJ3hAI&protocol=oauth2&response_type=code&redirect_uri=https%3A%2F%2Fmanage.auth0.com%2Fcallback&scope=openid%20profile%20name%20email%20nickname%20created_at#/applications/create);
+    1. click on the [Create Application button] (https://auth0.auth0.com/login?state=B0-s0_9mhfJfugwEu5SJ9AtUGnyREA4n&client=zEYfpoFzUMEzilhkHilcWoNkrFfJ3hAI&protocol=oauth2&response_type=code&redirect_uri=https%3A%2F%2Fmanage.auth0.com%2Fcallback&scope=openid%20profile%20name%20email%20nickname%20created_at#/applications/create);
     2. then define a 'Name' to your new application (e.g., "React Demo");
     3. then select 'Single Page Web Applications' as its type.
     4. and hit the 'Create' button to end the process.
@@ -18,5 +18,5 @@ That's it! From the Auth0 perspective, you are good to go and can start securing
 Note: As you want the best security available, you are going to rely on the [Auth0 login page](https://auth0.com/docs/hosted-pages/login). This method consists of redirecting users to a login page hosted by Auth0 that is easily customizable right from [your Auth0 dashboard](https://auth0.auth0.com/login?state=jOgJlYBoPnUUXdPS6jl-ojATBoTSOtIf&client=zEYfpoFzUMEzilhkHilcWoNkrFfJ3hAI&protocol=oauth2&response_type=code&redirect_uri=https%3A%2F%2Fmanage.auth0.com%2Fcallback&scope=openid%20profile%20name%20email%20nickname%20created_at). If you want to learn why this is the best approach, check [the Universal vs. Embedded Login article](https://auth0.com/docs/guides/login/universal-vs-embedded) .
 
 
-Source: [Securing React Apps with Auth0]
+Source: [Securing React Apps with Auth0] 
 (https://auth0.com/blog/how-to-configure-create-react-app/)
